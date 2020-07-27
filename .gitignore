@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# IntelliJ
+**/.idea
+**/*.iml
+
+# Ignore cloned example
+PL/craftinginterpreters
+
+# Compiled Classes
+**/*.class
+
 # User-specific files
 *.rsuser
 *.suo
